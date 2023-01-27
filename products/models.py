@@ -24,11 +24,12 @@ class Product(models.Model):
     brand = models.CharField(max_length=100)
     format = models.CharField(max_length=120)
     flavour = models.CharField(max_length=120)
-    units = models.DecimalField(max_digits=6, decimal_places=2)
-    cocoa_mass = models.DecimalField(max_digits=6, decimal_places=2,null=True, blank=True)
+    units = models.CharField(max_length=120)
+    cocoa_mass = models.CharField(max_length=100, null=True, blank=True)
     diet_type = models.CharField(max_length=120, null=True, blank=True)
     speciality = models.CharField(max_length=254, null=True, blank=True)
     size = models.CharField(max_length=120)
+    ingredients = models.TextField(null=True, blank=True)
 
 
     def __str__(self):
