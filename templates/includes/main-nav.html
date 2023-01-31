@@ -12,19 +12,19 @@
             </div>
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Chocolate Bars / Clothing
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="chocolate-bars-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Chocolate Bars
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Plain /Activewear & Essentials</a>
-                <a href="" class="dropdown-item">Nutty /Jeans</a>
-                <a href="" class="dropdown-item">Fruity /Shirts</a>
-                <a href="" class="dropdown-item">Boozy</a>
-                <a href="" class="dropdown-item">Spicy</a>
-                <a href="" class="dropdown-item">Minty</a>
-                <a href="" class="dropdown-item">Caramel</a>
-                <a href="" class="dropdown-item">Coffee</a>
-                <a href="" class="dropdown-item">All Bars/ All Clothing</a>
+            <div class="dropdown-menu border-0" aria-labelledby="chocolate-bars-link">
+                <a href="{% url 'products' %}?category=plain" class="dropdown-item">Plain</a>
+                <a href="{% url 'products' %}?category=nutty" class="dropdown-item">Nutty</a>
+                <a href="{% url 'products' %}?category=fruity" class="dropdown-item">Fruity</a>
+                <a href="{% url 'products' %}?category=boozy" class="dropdown-item">Boozy</a>
+                <a href="{% url 'products' %}?category=spicy" class="dropdown-item">Spicy</a>
+                <a href="{% url 'products' %}?category=minty" class="dropdown-item">Minty</a>
+                <a href="{% url 'products' %}?category=caramel" class="dropdown-item">Caramel</a>
+                <a href="{% url 'products' %}?category=coffee" class="dropdown-item">Coffee</a>
+                <a href="{% url 'products' %}?category=plain,nutty,fruity,boozy,spicy,minty,caramel,coffee" class="dropdown-item">All Bars</a>
             </div>
         </li>
         <li class="nav-item dropdown">
@@ -32,9 +32,9 @@
                 Truffles / Homeware
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">XXX Truffles /Bed & Bath</a>
-                <a href="" class="dropdown-item">YYY Truffles /Kitchen & Dining</a>
-                <a href="" class="dropdown-item">ZZZ Truffles /Homeware</a>
+                <a href="{% url 'products' %}?category=" class="dropdown-item">XXX Truffles /Bed & Bath</a>
+                <a href="{% url 'products' %}?category=" class="dropdown-item">YYY Truffles /Kitchen & Dining</a>
+                <a href="{% url 'products' %}?category=" class="dropdown-item">ZZZ Truffles /Homeware</a>
             </div>
         </li>
         <li class="nav-item dropdown">
@@ -42,10 +42,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
