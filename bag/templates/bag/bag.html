@@ -63,7 +63,7 @@
                                                     <input class="form-control form-control-sm qty_input" type="number" 
                                                         name="quantity" value="{{ item.quantity }}" min="1" max="99" 
                                                         data-item_id="{{ item.item_id }}" 
-                                                        id="id_qty{{ item.item_id }}">
+                                                        id="id_qty_{{ item.item_id }}">
                                                     <div class="input-group-append">
                                                         <button class="increment-qty btn btn-sm btn-black rounded-0"
                                                             data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
@@ -92,7 +92,7 @@
                                         <p class="mb-1 text-danger">
                                             You could get free delivery by spending just <strong>£{{ free_delivery_delta }}</strong> more!
                                         </p>
-                                    {% endif%}
+                                    {% endif %}
                                 </td>
                             </tr>
                             <tr>
@@ -102,7 +102,7 @@
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
                                     </a>
-                                    <a href="" class="btn bnt-black rounded-0 btn-lg">
+                                    <a href="" class="btn btn-black rounded-0 btn-lg">
                                         <span class="text-uppercase">Secure Checkout</span>
                                         <span class="icon">
                                             <i class="fas fa-lock"></i>
@@ -146,9 +146,9 @@
         var data = {'csrfmiddlewaretoken': csrfToken, 'size': size};
 
         $.post(url, data)
-            .done(function() {
-                location.reload();
-            });
+         .done(function() {
+            location.reload();
+        });
     })
 </script>
 {% endblock %}
