@@ -102,7 +102,7 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
-.message -container {
+.message-container {
     position: fixed;
     top: 72px;
     right: 15px;
