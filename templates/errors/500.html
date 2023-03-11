@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} | 505 Page {% endblock %}
+{% block content %}
+
+<!-- My own code I previously used in my Milestone Project 4-->
+<!-- 500 Error handler -->
+<section class="500-page">
+    <div class="container-fluid pt-5">
+        <div class="row">
+            <div class="col-md-8 my-5 offset-md-2 pt-5">
+                <div class="row">
+                    <h3>SORRY, SOMETHING WENT WRONG ON OUR END...</h3>
+                    <p>We are currently trying to fix the problem.</p>
+                    <p>In the mean time, you can wait a few minutes...</p>
+                    <p>Have a cuppa... Take a nap. Or meditate. ;-)</p>
+                    <p>And refresh the page.</p>
+                    <a href="{% url 'home' %}" class="btn btn-signup btn-lg">
+                        For now, we'll take you back home, ok?
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
