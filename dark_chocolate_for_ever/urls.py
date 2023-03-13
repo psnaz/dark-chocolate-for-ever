@@ -29,6 +29,7 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
     path('', include('newsletter.urls')),
     path('', include('reviews.urls')),
+    path('', include('contact.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 

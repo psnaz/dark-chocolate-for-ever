@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'profiles',
     'newsletter',
     'reviews',
+    'contact',
 
     # Other
     'storages',
