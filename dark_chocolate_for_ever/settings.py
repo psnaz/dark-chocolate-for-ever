@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'crispy_bootstrap4',
     'profiles',
     'newsletter',
+    'reviews',
 
     # Other
     'storages',
