@@ -31,6 +31,7 @@ body {
 #top-nav {
     background-color: #524138;
 }
+
 .shop-now-button {
     background: #649ba3;
     color: white;
@@ -75,6 +76,14 @@ body {
 
 .bg-black {
     background: #000 !important;
+}
+
+.bg-brown {
+    background: #524138;
+}
+
+#footer {
+    background: #524138;
 }
 
 .overlay {

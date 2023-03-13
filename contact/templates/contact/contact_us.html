@@ -1,0 +1,48 @@
+<!--This is my original custom model with associated functionalities that 
+hasn't been used in the CI Django Walkthrough projects. It has been 
+created by following and tweaking the Youtube Django Tutorial #9: 
+A More Complex Form (2022) by Django tutorials (see README file) 
+AND with a kind advice and help of my mentor. -->
+
+{% extends "base.html" %}
+
+{% block title %}Contact Us{% endblock title%}
+
+{% block content %}
+
+<div class="container pt-5">
+  <div class="row">
+    <div class="col-md-8 mt-5 offset-md-2 pt-5">
+        <h3>Contact Us</h3>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 mt-1 offset-md-2">
+      <form class="contact_form" id="contact_form" method="post" action="{% url 'contact_us' %}">
+        {% csrf_token %}
+          <div class="form-group">
+            <label for="name"></label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="email"></label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your email: name@example.com" required>
+          </div>
+          <div class="form-group">
+              <label for="subject"></label>
+              <textarea class="form-control" name="subject" id="subject" rows="1" placeholder="Subject Line" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="message"></label>
+            <textarea class="form-control" name="message" id="message" rows="3" placeholder="How can I help you?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg my-5">Submit</button>
+        </form>
+    </div>
+  </div>
+</div>
+
+{%endblock content %}
