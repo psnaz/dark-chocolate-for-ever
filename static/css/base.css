@@ -19,14 +19,18 @@ body {
     width: 1.5rem;
 }
 
+
 .logo-font {
-    text-transform: uppercase;
+    font-family: 'Dancing Script', sans-serif;
 }
 
 .main-logo-link {
     width: fit-content;
 }
 
+#top-nav {
+    background-color: #524138;
+}
 .shop-now-button {
     background: black;
     color: white;
@@ -173,6 +177,10 @@ input[name='q']::placeholder {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+#delivery-banner {
+    background-color: #649ba3;
 }
 
 /* ------------Media Queries */
