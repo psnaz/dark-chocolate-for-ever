@@ -145,6 +145,58 @@ Features to be implemented
 - favicon.io was used to create the favicon
 - FontAwesome used for social media icons: FB, IG, YT
 
+- [amiresponsive](http://ami.responsivedesign.is/) was used to create the mockup for Readme
+- Validation services: W3C Markup Validation, W3C CSS Validation, PEP8 Validation
+
+## TESTING
+
+I have tested this project manually and completed also some auto testing via the online validation services.
+
+## DEPLOYMENT
+
+### Deployment to Heroku
+
+This site was deployed to Heroku pages by taking the following steps:
+
+1. Log into your Heroku account
+2. On your right hand side, click on the button ‘New’ and then click ‘create a new app’
+3. Name your app and chose a region, then click ‘Create app’ button below
+4. Click on the Settings in the tab
+5. Click add Buildpack to add 2 buildpack as follows: first `heroku/python` and then `heroku/nodejs`, save changes
+6. You must then create a Config var (click reveal Config Vars under the Settings, just above the Buildpack) called `PORT` (under key) and set it to `8000` (under value) and click add, then hide Config Vars
+7. Click Deploy on the tab and chose deployment method: connect to your GitHub repository
+8. Search for your repository, once found, connect.
+9. Scroll down to Manual deploy and click ‘Deploy branch’. Your app will be built.
+10. Once you ‘App was successfully deployed’ message and button with your deployed link, you can click on it to see your app.
+
+
+
+## Forking the GitHub Repository OR Making a Local Clone
+
+If you are interested how to fork this repository or how to make a local clone, this information can be found in Github documentation [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+## Credits
+
+### Code
+
+- The majority of the code came from the Django Walkthrough projects (Boutique Ado and Blog) and the Diploma in Software Development study materials, my notes taken during going through the materials and by working with Google DevTools - trial and error approach.
+
+- Additonal knowledge used from the following courses: [The Boostrap 4 Camp](https://www.udemy.com/course/bootstrap-4-bootcamp/)
+
+- [MDN Web Docs](https://developer.mozilla.org/en-US/): Used extensively to deepen my knowledge and understanding of HTML and CSS, and chek for ideas and solutions, specifically:  
+
+- For Contact form/ Query model: Youtube [Django Tutorial #9: A More Complex Form (2022) by Django tutorials](https://www.youtube.com/watch?v=-qAf_Qx6Ygg)
+
+- [Djangoproject documentation](https://docs.djangoproject.com/en/4.1/)
+
+- Stackoverflow
+
+- For 404 and 500 Error pages [this youtube tutorial](https://www.youtube.com/watch?v=zSEexM0GspU) and [this article](https://freefrontend.com/html-funny-404-pages/)
+
+-  Mentor’s advice
+
+
+
 
 
 
