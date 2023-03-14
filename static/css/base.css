@@ -10,6 +10,7 @@ body {
     font-family: 'Lato';
 }
 
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -43,6 +44,11 @@ body {
     color: white;
 }
 
+.btn-blue {
+    background: #649ba3;
+    color: white;
+}
+
 .btn-outline-black {
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
@@ -68,6 +74,10 @@ body {
 
 .text-black {
     color: #000 !important;
+}
+
+.text-blue {
+    color: #649ba3 !important;
 }
 
 .border-black {
