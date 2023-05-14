@@ -150,7 +150,7 @@ Features to be implemented
 
 ## TESTING
 
-I have tested this project manually and completed also some auto testing via the online validation services.
+I have tested this project manually and completed also some auto testing via the online validation services. See the full details on a separate page [HERE.](https: add THE TESTING.md FILE LINK HERE!!)
 
 ## DEPLOYMENT
 
