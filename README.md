@@ -8,7 +8,7 @@ The purpose of the e-commerce website is to sell dark chocolate to chocolate lov
 
 ## Showcase
 
-A deployed link to the website can be found [here] (https://dark-chocolate-for-ever.herokuapp.com/)
+A deployed link to the website can be found [here](https://dark-chocolate-for-ever.herokuapp.com/)
 
 To test payments you can use the following test details:
 
@@ -128,6 +128,35 @@ Features to be implemented
 #### Typography
 ‘Lato’ used as a main font and 'Dancing Script' used as 'logo font'.
 
+--- 
+
+## 2. FEATURES
+
+---
+
+## 3. DATABASE STRUCTURE
+
+I have used a relational database for this project. SQLite/Postgress was used as the main database, all data migrated to Heroku and then due to the recent Heroku changes it was successfully migrated to ElephantSQL.
+
+![database-modeling.png](./docs/images/database-modeling.png)
+
+I have created a separate xxx app and inclueded my custom model:
+
+- contact: contains information about the user
+- status: contains additional information (eg parental status, blogger status)
+- subject: contains subject line
+- message: contains user's message
+- answerdate: could be added in admin when messages answered
+- user: contains information about the user
+
+---
+
+## 4. CRUD OPERATIONS AND DEFENSIVE DESIGN
+
+---
+
+## 5. TECHNOLOGIES USED
+
 ### Languages Used
 - HTML5, Boostrap framework
 - CSS3
@@ -148,11 +177,15 @@ Features to be implemented
 - [amiresponsive](http://ami.responsivedesign.is/) was used to create the mockup for Readme
 - Validation services: W3C Markup Validation, W3C CSS Validation, PEP8 Validation
 
-## TESTING
+---
+
+## 6. TESTING
 
 I have tested this project manually and completed also some auto testing via the online validation services. See the full details on a separate page [HERE.](https: add THE TESTING.md FILE LINK HERE!!)
 
-## DEPLOYMENT
+---
+
+## 7. DEPLOYMENT
 
 ### Deployment to Heroku
 
@@ -170,12 +203,17 @@ This site was deployed to Heroku pages by taking the following steps:
 10. Once you ‘App was successfully deployed’ message and button with your deployed link, you can click on it to see your app.
 
 
-
 ## Forking the GitHub Repository OR Making a Local Clone
 
 If you are interested how to fork this repository or how to make a local clone, this information can be found in Github documentation [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
-## Credits
+---
+
+## 8. SEO
+
+---
+
+## 9. Credits
 
 ### Code
 
@@ -195,11 +233,22 @@ If you are interested how to fork this repository or how to make a local clone, 
 
 -  Mentor’s advice
 
+### Content
+
+- All content was written by the developer. 
+
+### Media
+
+- Hero image taken by [XXX](https://unsplash.com/photos/Wu7hYE7Lzzs)  
+ downloaded from unspleash.com
 
 
+### Acknowledgements
 
+- My family
+- My Mentors Guido Cecilio and Chris Quinn for their patience and great insights.
+- Tutor support at Code Institute for their support.
 
-
-
+- Code Institute Slack Community for all their advice and support.
 
 ------

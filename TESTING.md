@@ -52,7 +52,12 @@ Browser Compatibility was tested by using Chrome, Firefox and Microsoft Edge bro
 
 
 ## Features Test
-TO BE ADDED
+All User Stories have been tested manually to make sure that all the Features are working properly. See the screenshots below:
 
-![features-us-testing.png](./docs/images/features-us-testing.png)
+![features-us-testing1.png](./docs/images/features-us-testing1.png)
+
+![features-us-testing2.png](./docs/images/features-us-testing2.png)
+
+![features-us-testing3.png](./docs/images/features-us-testing3.png)
+
 
