@@ -19,48 +19,59 @@ ZIP: 42424
 
 ------
 ## Table of Contents
-1. UX
+1. Business
+
+2. UX
 Project Goals
 User Stories
 Design
 
-2. Features
+3. Features
 Existing Features:
 	- Products App
 	- Home App
 	- Bag App
 	- Checkout App
+    - Reviews App
+    - Newsletter App
+    - Profiles App
 - Base Template
 Features to be implemented
 
-3. Database Structure
-4. CRUD Operations and Defensive Design
-5. Technologies Used:
+4. Database Structure
+5. CRUD Operations and Defensive Design
+6. Technologies Used:
     - Languages
     - Libraries and Packages
     - Tools
     - Databases
-6. Testing:
+7. Testing:
     - Automated Testing:
     - Manual Testing: Feature Testing, Stripe Payment Testing, Responsivness
 
-7. Deployment:
+8. Deployment:
  - Heroku Deployment (incl AWS) 
  - Local Deployment
 
-8. SEO and Marketing:
+9. Marketing and SEO:
  - SEO: Keywords used:
  - FB page
- - Mailchimp?
+ - Newsletter signup
 
-9. Credits:
+10. Credits:
  - Content
  - Code 
  - Images and Media 
  - Acknowledgements
 
 ------
-## 1. UX
+## 1. Business
+
+### Business Model
+
+My e-commerce website follows a Business to Consumer business model (B2C) which means that when consumers go online to search for dark chocolate and they find my website, they can browse through my store. When they find products they would like to purchase, they will place an order: place items into the shopping bag, add their payment details and pay for their purchase. Once order has been placed they will receive an order confirmation, and their order would be processed and despatched. Once the consumer would receive their goods, they would have an option to log in and rate the products received and leave a review if they wish. 
+
+## 2. UX
 
 ### Project Goals
 
@@ -130,32 +141,30 @@ Features to be implemented
 
 --- 
 
-## 2. FEATURES
+## 3. FEATURES
 
 ---
 
-## 3. DATABASE STRUCTURE
+## 4. DATABASE STRUCTURE
 
 I have used a relational database for this project. SQLite/Postgress was used as the main database, all data migrated to Heroku and then due to the recent Heroku changes it was successfully migrated to ElephantSQL.
 
 ![database-modeling.png](./docs/images/database-modeling.png)
 
-I have created a separate xxx app and inclueded my custom model:
+I have created the following separate apps and inclueded my custom models:
 
-- contact: contains information about the user
-- status: contains additional information (eg parental status, blogger status)
-- subject: contains subject line
-- message: contains user's message
-- answerdate: could be added in admin when messages answered
-- user: contains information about the user
+- Contact app / ContacUs model
+- Reviews app / ProductReview model
+- Newsletter app/ Newsletter model
+
 
 ---
 
-## 4. CRUD OPERATIONS AND DEFENSIVE DESIGN
+## 5. CRUD OPERATIONS AND DEFENSIVE DESIGN
 
 ---
 
-## 5. TECHNOLOGIES USED
+## 6. TECHNOLOGIES USED
 
 ### Languages Used
 - HTML5, Boostrap framework
@@ -179,13 +188,13 @@ I have created a separate xxx app and inclueded my custom model:
 
 ---
 
-## 6. TESTING
+## 7. TESTING
 
 I have tested this project manually and completed also some auto testing via the online validation services. See the full details on a separate page [HERE.](https: add THE TESTING.md FILE LINK HERE!!)
 
 ---
 
-## 7. DEPLOYMENT
+## 8. DEPLOYMENT
 
 ### Deployment to Heroku
 
@@ -209,11 +218,27 @@ If you are interested how to fork this repository or how to make a local clone, 
 
 ---
 
-## 8. SEO
+## 9. Marketing and SEO
+
+### Marketing
+
+As this business has currently no marketing budget for paid advertising, it relies purely on the two following unpaid marketing strategies:
+
+**Social Media Presence**
+posting on Facebook - the Facebook page can be found [here](https://www.facebook.com/DarkChocolateForEver/)
+
+**Email Marketing Strategy**
+enabled by signing up to a newsletter via a Newsletter signup form.
+
+### SEO
+
+Keyword Serch carried out:
+
+
 
 ---
 
-## 9. Credits
+## 10. Credits
 
 ### Code
 
