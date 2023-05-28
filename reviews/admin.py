@@ -3,12 +3,12 @@ from .models import ProductReview
 
 
 class ReviewsAdmin(admin.ModelAdmin):
-    readonly_fields = ('submitted', 'message',)
+    readonly_fields = ('submitted', 'subject', 'review', 'rating', 'ip', 'user', 'status', 'updated',)
 
-    fields = ('full_name', 'email', 'submitted', 'message',)
+    fields = ('full_name', 'email', 'submitted', 'subject', 'review', 'rating', 'ip', 'user', 'updated',)
 
-    list_display = ('full_name', 'email', 'submitted', 'message')
+    list_display = ('full_name', 'email', 'submitted', 'subject', 'review', 'rating', 'updated',)
 
-    ordering = ('-submitted',)   
-
+    ordering = ('-submitted',)
+    
 admin.site.register(ProductReview, ReviewsAdmin)
