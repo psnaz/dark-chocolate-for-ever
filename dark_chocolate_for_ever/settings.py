@@ -28,9 +28,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'True'   # 'DEVELOPMENT' in os.environ
+DEBUG = True   # 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['dark-chocolate-for-ever.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['dark-chocolate-for-ever.herokuapp.com', 'localhost', '8000-psnaz-darkchocolatefor-1qk1daw3qtw.ws-eu98.gitpod.io']
 
 
 # Application definition
