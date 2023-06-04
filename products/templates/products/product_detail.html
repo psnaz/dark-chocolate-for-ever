@@ -105,7 +105,7 @@
             <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
                 <div class="col-md-9">
                     <!-- Rating Stars-->
-                    <form action="" method="POST">
+                    <form action="{% url 'submit_review' product.id %}" method="POST">
                         {% csrf_token %}
                         <h5>Write Your Review</h5>
                         <div>
@@ -124,7 +124,7 @@
                             <textarea name="review" rows="4" class="form-control" placeholder="Write your review here..."></textarea>
                             <br>
                             {% if user.is_authenticated %}
-                            <input type="submit" value="Submit Review" class="btn btn-outline-black">
+                            <input type="submit" value="Submit Review" class="btn btn-black">
                             {% else %}
                             <p>You must be logged in to post a review. <span><a href="{% url 'account_login' %}">Login here.</a></span></p>
                             {% endif %}
