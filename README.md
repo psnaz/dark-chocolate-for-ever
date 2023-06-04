@@ -126,6 +126,13 @@ My e-commerce website follows a Business to Consumer business model (B2C) which 
 21. As a Shopper I can view an order confirmation after check out so that I can verify that I haven’t made any mistakes
 22. As a Shopper I can receive an email confirmation after checking out so that I can keep the confirmation of what I’ve purchased for my records
 
+
+### Agile Methodologies
+
+During the project planning stage and development agile methodology was used. [User stories](https://github.com/psnaz/dark-chocolate-for-ever/issues) and [project](https://github.com/users/psnaz/projects/5) were created in Github. During the development I was using mainly the kanban style project board in Github - see the screenshot below.
+
+![Kanban style project board](docs/images/kanban-view.png)
+
 ------
 
 ### Design TO FOLLOW
