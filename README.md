@@ -137,6 +137,10 @@ During the project planning stage and development agile methodology was used. [U
 
 ### Design TO FOLLOW
 
+- Colour palette created in canva.com, however, different colours used in the end
+
+![Color palette screenshot](docs/images/colour-palette.png)
+
 #### Wireframes created with balsamiq:
 
 
@@ -203,20 +207,93 @@ I have tested this project manually and completed also some auto testing via the
 
 ## 8. DEPLOYMENT
 
+### CREATING A DJANGO APP
+
+The following steps had to be taken to create the Django app:
+
+1. Go to Github and
+2. Create a new repository using the CI template
+3. Create a workspace  by clicking the green Gitpod button in your new repository page
+4. Carry out an initial commit
+5. Install Django and gunicorn: `pip3 install django gunicorn`
+6. Install any supporting libraries: `pip3 install dj_database_url_psycopg2`
+7. Create requirements.txt file: `pip3 freeze --local > requirements.txt`
+8. Create Django project: `django-admin startproeject yourprojectname`
+9. Create an app within the project: `python3 manage.py startapp yourappname `
+10. Add your created app to the list of installed apps in settings.py 
+11. Make migrations: `python3 manage.py makemigrations`
+12. Migrate your changes: `python3 manage.py migrate`
+13. Test by running your server locally: `python3 manage.py runserver`
+14. Create procfile: `python3 run.py > Procfile`
+15. Push your changes to Github: 
+    `git add .`
+    `git commit -m “Commit message here”`
+    `git push`
+
+Once this is done, you can start deployment to Heroku
+
 ### Deployment to Heroku
 
 This site was deployed to Heroku pages by taking the following steps:
 
-1. Log into your Heroku account
-2. On your right hand side, click on the button ‘New’ and then click ‘create a new app’
-3. Name your app and chose a region, then click ‘Create app’ button below
-4. Click on the Settings in the tab
-5. Click add Buildpack to add 2 buildpack as follows: first `heroku/python` and then `heroku/nodejs`, save changes
-6. You must then create a Config var (click reveal Config Vars under the Settings, just above the Buildpack) called `PORT` (under key) and set it to `8000` (under value) and click add, then hide Config Vars
-7. Click Deploy on the tab and chose deployment method: connect to your GitHub repository
-8. Search for your repository, once found, connect.
-9. Scroll down to Manual deploy and click ‘Deploy branch’. Your app will be built.
-10. Once you ‘App was successfully deployed’ message and button with your deployed link, you can click on it to see your app.
+Go to Heroku and
+1. Create Heroku account, log in and go to the Dashboard
+2. Click `“NEW”`
+3. Click `“CREATE NEW APP”`
+4. Give your app a name and select the region closest to you (eg. Europe). Click `“CREATE APP”` to confirm
+As the database provided by Django is not suitable for a production enviroment, you have to create a new database in ElephantSQL.com and transfer the data from your IDE to your new database. 
+5. Create ElephantSQL account, log in and go to your dashboard.
+6. Click `“CREATE NEW INSTANCE”`
+7. Set up your plan: Give it a NAME (usually the name of your project), select the free Plan (called Tiny Turtle), leave the tags blank
+8. Click `“SELECT REGION”`
+9. Select your closest data centre from the dropdown menu
+10. Click `“REVIEW”`
+11. Check if your details are correct and click `“CREATE INSTANCE”`
+12. Return to the ElephantSQL dashboard and click on your database instance name.
+13. In the URL section, click the copy icon to copy your new database URL
+Go to your project workspace (eg. Gitpod) and
+14. create `env.py`. Remember to include this file in `.gitignore` file as env.py mustn’t be included in your Github repository.
+15. In your env.py file add the following code: `import os`   
+16. You need to set environment variables: 
+ First add a blank line, then set a DATABASE_URL variable with the value copied from ElephantSQL (step 13.) Your code should look like this: `os.environ[“DATABASE_URL”]=”<your copied string from ElephantSQL>”`   
+17. To encrypt session cookies in Django application, you have to set up your SECRET_KEY in the env.py which can be anything. Your code should look like this: `os.environ[“SECRET_KEY”]=”wh@t_ever_you_made+up-comes!here”`
+18. Save the env.py file
+19. To make your Django project aware of the env.py file, open your settings.py and add the following code below your Path import: 
+ `import os`
+ `import dj_database_url`
+ `if os.path.isfile(‘env.py’)`
+20. Further down, remove the insecure secret key provided by Django and change your SECRET_KEY variable to:
+ `SECRET_KEY = os.environ.get(‘SECRET_KEY’)`
+21. To hook up your database, scroll down in your settings.py file to the database section.
+22. Comment out the original DATABASES variable and add the code below:
+ `DATABASES = {‘default’: dj_database_url.parse(os.environ.get(“DATABASE_URL”))}`
+23. Save your settings.py. Your app will now be connected to your remote database hosted on ElephantSQL
+24. Migrate these changes: `python3 manage.py migrate`
+Once migrated go over to your ElephantSQL account and
+25. select your database instance and select the `“BROWSER”` on the left.
+26. Click `“TABLE QUERIES”` to see a dropdown list and your database structure. SQL Query list must have populated from your Django migrations.
+Head back to your Gitpod workspace and
+27. Add, commit and push your project to GitHub again. Your Gitpod workspace is now connected to your ElephantSQL database.
+Now you have to connect your new ElephantSQL database to Heroku, so head back to your Heroku dashboard and
+28. Click on the Settings tab
+29. Set the following config vars: 
+`DATABASE_URL` and add the URL of your ElephantSQL database as a value, 
+`CLOUDINARY_URL` and add the URL of your Cloudinary acc (if you are using Cloudinary for storage of images),
+`SECRET_KEY` that contains your secret key, and 
+`PORT` with a value of 8000, also
+`DEBUG` and add True as a value, 
+`DISABLE_COLLECTSTATIC` and add 1 as a value.
+In the Gitpod workspace update your settings.py:
+30. Set DEBUG to True
+In Heroku account 
+31. click the `Deploy tab` and as deployment method select `Github` and click the `connect to Github`
+32. Search for your repository name, once found, `connect`.
+33. Scroll down to `Manual deploy` and click `‘Deploy branch’`. Your app will be built.
+
+Once your ‘App was successfully deployed’ message appears and button with your deployed link, you can click on it to see your app.
+
+### AWS S3 Bucket Configuration ???
+- Create an account on Amazon AWS
 
 
 ## Forking the GitHub Repository OR Making a Local Clone
@@ -267,7 +344,9 @@ Keyword Serch carried out:
 
 ### Content
 
-- All content was written by the developer. 
+- Product descriptions were taken from [Amazon UK](https://www.amazon.co.uk/) and amended by the developer
+- About page/ Mission was inspired by Ombar Store on [Amazon UK](https://www.amazon.co.uk/)
+- Terms and conditions were taken and amended from [Hukitchen](https://hukitchen.co.uk/policies/shipping-policy) 
 
 ### Media
 
