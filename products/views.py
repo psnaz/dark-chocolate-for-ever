@@ -6,6 +6,8 @@ from django.db.models.functions import Lower
 
 from .models import Product, Category
 from .forms import ProductForm
+from checkout.models import Order
+from reviews.models import ProductReview
 
 
 def all_products(request):
@@ -63,8 +65,14 @@ def product_detail(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
 
+    # My own code to be added, checking if product purchased
+
+    # Get the reviews - my own code
+    reviews = ProductReview.objects.filter(product=product_id)
+
     context = {
         'product': product,
+        'reviews': reviews,
     }
 
     return render(request, 'products/product_detail.html', context)

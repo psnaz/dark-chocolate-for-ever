@@ -1,11 +1,13 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 
 from .models import Product, ProductReview
 from .forms import ReviewForm
 
 
+@login_required
 def submit_review(request, product_id):
     """ A view to allow user to submit a product review """
   

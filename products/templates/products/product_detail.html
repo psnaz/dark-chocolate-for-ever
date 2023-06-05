@@ -107,6 +107,7 @@
                     <!-- Rating Stars-->
                     <form action="{% url 'submit_review' product.id %}" method="POST">
                         {% csrf_token %}
+                        {{ form|crispy }}
                         <h5>Write Your Review</h5>
                         <div>
                             <label for="">How do you rate this product?</label>
@@ -134,18 +135,19 @@
                     <header>
                         <h5>Customer Reviews</h5>
                     </header>
-                    <article class="box mb-3">
-                        <div class="icontext w-100">
-                            <img src="" class="img-xs icon rounded-circle">
-                            <div class="text">
-                                <span class="date text-muted float-md-right">24.04.2023</span>
-                                <h6 class="mb-1">Mike John</h6>
+                    {% for review in reviews %}
+                        <article class="box mb-3">
+                            <div class="icontext w-100">
+                                <div class="text">
+                                    <span class="date text-muted float-md-right">24.04.2023</span>
+                                    <h6 class="mb-1 font-italic">Mike John</h6>
+                                </div>
+                                <div class="mt-3">
+                                    <p>what ever review the customer's posted here</p>
+                                </div>
                             </div>
-                            <div class="mt-3">
-                                <p>what ever review the customer's posted here</p>
-                            </div>
-                        </div>
-                    </article>
+                        </article>
+                    {% endfor %}
                 </div>    
             </div>
             
