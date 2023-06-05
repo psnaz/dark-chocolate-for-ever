@@ -8,10 +8,13 @@ AND with a kind advice and help of my mentor.
 
 from django import forms
 from django.forms import ModelForm
-from .models import Contact
+from .models import ContactUs
 
 
 class ContactUsForm(forms.ModelForm):
+    """
+    Form for contact us page
+    """
     required_css_class = 'required'
     
     class Meta:

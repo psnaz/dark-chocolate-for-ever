@@ -10,11 +10,14 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import redirect
 from .models import ContactUs
-# from .forms import ContactUsForm
+from .forms import ContactUsForm
 
 
 def index(request):
-    template = 'contact/contact_us.html'
+    """
+    Renders the success page after submitting the contact form
+    """
+    template = 'contact/contact-us.html'
 
     contact_form = ContactUsForm()
 
@@ -26,7 +29,9 @@ def index(request):
 
 
 def contact_us(request):
-    """ A view to show the contact page """
+    """ 
+    A view to show the contact page 
+    """
     form = ContactUsForm(request.POST)
     if form.is_valid():
         form.save()
@@ -34,5 +39,6 @@ def contact_us(request):
     
     return HttpResponse('Something went wrong')
 
+
 def contact_submitted(request):
-    return render(request, 'contact/index.html')
+    return render(request, 'contacts/index.html')

@@ -92,6 +92,12 @@ body {
     background: #524138;
 }
 
+#about {
+    background-color: #524138;
+    /* background: url(...) top center / cover no-repeat; */
+    min-height: 450px;
+}
+
 .footer {
     background: #524138;
 }
