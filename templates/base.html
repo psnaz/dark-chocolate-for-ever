@@ -54,7 +54,7 @@
           <h4 class="my-1">Free delivery on orders over £{{ free_delivery_threshold }}!</h4>
         </div>
       </div>
-      <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
+      <div id="top-nav" class="row bg-white pt-lg-2 d-none d-lg-flex">
         <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
           <a href="{% url 'home' %}" class="nav-link main-logo-link">
             <h2 class="logo-font text-black my-0"><strong>Dark Chocolate For Ever</strong></h2>
@@ -163,10 +163,12 @@
           <!--Newsletter signup-->
           <div class="col-sm-12 col-md-6 text-left">
             <h6 class="font-weight-bold text-blue">Let's stay in touch!</h6>
-            <form action="" method="POST" id="newsletter-signup-form">
+            <form action="{% url 'newsletter_signup' %}" id="newsletter-signup-form" method="POST" autocomplete="off" enctype="multipart/form-data">
               {% csrf_token %}
+              {{ newsletter_form }}
+              <!-- Original Newsletter sign up
               <fieldset class="rounded px-3 mb-1">
-                  <!-- <legend class="fieldset-label small text-black px-2 w-auto"></legend> -->
+                   <legend class="fieldset-label small text-black px-2 w-auto">THIS LINE TO BE DELETED!!</legend> 
                   <div class="form-group">
                     <label for="your-name"></label>
                     <input type="name" class="form-control form-control-sm" id="name" placeholder="Your Name">
@@ -175,7 +177,7 @@
                     <label for="email"></label>
                     <input type="email" class="form-control form-control-sm" id="your-email" placeholder="Email Address">
                   </div>
-              </fieldset>
+              </fieldset> -->
               <div class="submit-button text-left mt-2 mb-2">
                   <button id="submit-button" class="btn btn-blue rounded-3">
                       <span class="font-weight-bold">Subscribe to Our Newsletter</span>
