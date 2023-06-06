@@ -165,24 +165,14 @@
             <h6 class="font-weight-bold text-blue">Let's stay in touch!</h6>
             <form action="{% url 'newsletter_signup' %}" id="newsletter-signup-form" method="POST" autocomplete="off" enctype="multipart/form-data">
               {% csrf_token %}
-              {{ newsletter_form }}
-              <!-- Original Newsletter sign up
-              <fieldset class="rounded px-3 mb-1">
-                   <legend class="fieldset-label small text-black px-2 w-auto">THIS LINE TO BE DELETED!!</legend> 
-                  <div class="form-group">
-                    <label for="your-name"></label>
-                    <input type="name" class="form-control form-control-sm" id="name" placeholder="Your Name">
-                  </div>
-                  <div class="form-group">
-                    <label for="email"></label>
-                    <input type="email" class="form-control form-control-sm" id="your-email" placeholder="Email Address">
-                  </div>
-              </fieldset> -->
-              <div class="submit-button text-left mt-2 mb-2">
-                  <button id="submit-button" class="btn btn-blue rounded-3">
-                      <span class="font-weight-bold">Subscribe to Our Newsletter</span>
-                  </button>
-              </div>
+              <fieldset class="rounded px-3 mb-5">
+                <legend class="fieldset-label small text-black px-2 w-auto text-blue"></legend>
+                {{ newsletter_form.full_name | as_crispy_field }}
+                {{ newsletter_form.email | as_crispy_field }}
+                <button id="submit-button" class="btn btn-blue rounded-3">
+                  <span class="font-weight-bold">Subscribe to Our Newsletter</span>
+              </button>
+              </fieldset>
           </form>
 
           </div>
