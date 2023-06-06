@@ -68,7 +68,7 @@ def product_detail(request, product_id):
     # My own code to be added, checking if product purchased
 
     # Get the reviews - my own code
-    reviews = ProductReview.objects.filter(product=product_id)
+    reviews = ProductReview.objects.filter(product_id=product.id, status=True)
 
     context = {
         'product': product,

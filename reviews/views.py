@@ -10,9 +10,7 @@ from .forms import ReviewForm
 @login_required
 def submit_review(request, product_id):
     """ A view to allow user to submit a product review """
-  
     url = request.META.get('HTTP_REFERER')
-
     if request.method == 'POST':
         try:
             reviews = ProductReview.objects.get(user__id=request.user.id, product__id=product_id)
