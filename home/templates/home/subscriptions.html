@@ -1,0 +1,46 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+{% load account socialaccount %}
+
+{% block head_title %}{% trans "Sign In" %}{% endblock %}
+
+{% block inner_content %}
+
+<h2 class="logo-font mb-4">Regular Dark Chocolate Deliveries Straight to Your Letter Box!</h2>
+<hr>
+<h3 class="logo-font mb-4">We know... your dream come true :-) </h3>
+<br>
+<!-- SUBSCRIPTIONS PAGE -->
+<section class="about-us">
+  <div class="container-fluid padding-2">
+      <div class="row">
+          <div class="col-md-8 my-5 offset-md-2">
+              <div class="row">
+                  <div>
+                      <h4>Really sorry to disappoint you, but this service is not available as yet. :-( </h4>
+                      <br>
+                      <p class="font-weight-bold">But we're working on it!</p>
+                      <p>Just bear with us, it's COMING SOON! It will be available in Autumn 2023.</p>
+                      <p>
+                        If you would like to get notified as soon as this will become available, scroll down 
+                        and subscribe to our newsletter.
+                      </p>
+                      <br>
+                      <p>Thank you.</p>
+                      <br>
+                      <p>Wishing you many brighter days,</p>
+                      <p>With love for dark chocolate,</p>
+                      <br>
+                      <p>Happy Shopping!</p>
+                      <br>
+                      <p><em>The Team Dark Chocolate for Ever </em></p>
+                      <br>
+                  </div>   
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- END OF THE SUBSCRIPTIONS PAGE -->
+{% endblock %}
