@@ -311,6 +311,11 @@ As this business has currently no marketing budget for paid advertising, it reli
 **Social Media Presence**
 posting on Facebook - the Facebook page can be found [here](https://www.facebook.com/DarkChocolateForEver/)
 
+See screenshots below:
+![FB page screenshot1](docs/images/fb-p1.png)
+
+![FB page screenshot1](docs/images/fb-p2.png)
+
 **Email Marketing Strategy**
 enabled by signing up to a newsletter via a Newsletter signup form.
 
