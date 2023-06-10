@@ -1,8 +1,8 @@
 """
-This is my original custom model with associated functionalities that 
-hasn't been used in the CI Django Walkthrough projects. It has been 
-created by following and tweaking the Youtube Django Tutorial #9: 
-A More Complex Form (2022) by Django tutorials (see README file) 
+This is my original custom model with associated functionalities that
+hasn't been used in the CI Django Walkthrough projects. It has been
+created by following and tweaking the Youtube Django Tutorial #9:
+A More Complex Form (2022) by Django tutorials (see README file)
 AND with a kind advice and help of my mentor.
 """
 
@@ -11,14 +11,12 @@ from django.forms import ModelForm
 from .models import ContactUs
 
 
-class ContactUsForm(forms.ModelForm):
+class ContactForm(forms.ModelForm):
     """
     Form for contact us page
     """
     required_css_class = 'required'
-    
+
     class Meta:
         model = ContactUs
-        fields = [
-            'full_name', 'email', 'subject', 'message'
-        ]
+        fields = '__all__'

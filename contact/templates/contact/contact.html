@@ -1,0 +1,67 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+{% load account socialaccount %}
+
+{% block head_title %}{% trans "Sign In" %}{% endblock %}
+
+{% block inner_content %}
+
+<h2 class="logo-font mb-4">Contact Us</h2>
+<hr>
+<br>
+<!--CONTACT PAGE -->
+<section class="about-us">
+  <div class="container-fluid padding-2">
+      <div class="row">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-8 mt-1 offset-md-2">
+                <h3>We'd love to hear from you. Just fill out the contact form below:</h3>
+                <form class="contact_form" id="contact_form" method="post" action="{% url 'contact' %}">
+                  {% csrf_token %}
+                    <div class="form-group">
+                      <label for="name"></label>
+                      <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="email"></label>
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your email: name@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject"></label>
+                        <textarea class="form-control" name="subject" id="subject" rows="1" placeholder="Subject Line" required></textarea>
+                    </div>
+                    <div class="form-group">
+                      <label for="message"></label>
+                      <textarea class="form-control" name="message" id="message" rows="3" placeholder="How can I help you?" required></textarea>
+                    </div>
+                    <button id="submit-button" type="submit" class="btn btn-blue rounded-3">Submit</button>
+                  </form>
+              </div>
+            </div>
+          
+          <div class="col-md-8 my-5 offset-md-2">
+              <div class="row">
+                  <div>
+                      <h4>We'll do our best to come back to you as soon as possible, but please allow
+                        up to 48hr Monday to Friday.  
+                      </h4>
+                      <br>
+                      <p>Thank you. :-) </p>
+                      <br>
+                      <p>Wishing you many brighter days,</p>
+                      <p>With love for dark chocolate,</p>
+                      <br>
+                      <p>Happy Shopping!</p>
+                      <br>
+                      <p><em>The Team Dark Chocolate for Ever </em></p>
+                      <br>
+                  </div>   
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- END OF THE CONTACT PAGE -->
+{% endblock %}
