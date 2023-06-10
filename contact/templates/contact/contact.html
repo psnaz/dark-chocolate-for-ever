@@ -3,11 +3,12 @@
 {% load i18n %}
 {% load account socialaccount %}
 
-{% block head_title %}{% trans "Sign In" %}{% endblock %}
+{% block head_title %}{% trans "Contact Us" %}{% endblock %}
 
 {% block inner_content %}
 
-<h2 class="logo-font mb-4">Contact Us</h2>
+<hr>
+<h2 class="logo-font mb-4 text-center text-blue">Contact Us</h2>
 <hr>
 <br>
 <!--CONTACT PAGE -->
@@ -17,12 +18,12 @@
         <div class="container">
             <div class="row">
               <div class="col-md-8 mt-1 offset-md-2">
-                <h3>We'd love to hear from you. Just fill out the contact form below:</h3>
-                <form class="contact_form" id="contact_form" method="post" action="{% url 'contact' %}">
+                <h3>We'd love to hear from you! Just fill out the contact form below:</h3>
+                <form action="{% url 'contact' %}" class="contact-form" id="contact-form" method="POST" autocomplete="off" enctype="multipart/form-data">
                   {% csrf_token %}
                     <div class="form-group">
                       <label for="name"></label>
-                      <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                      <input type="text" class="form-control" name="name" id="name" placeholder="Your Full Name" required>
                     </div>
                     <div class="form-group">
                       <label for="email"></label>
@@ -34,7 +35,7 @@
                     </div>
                     <div class="form-group">
                       <label for="message"></label>
-                      <textarea class="form-control" name="message" id="message" rows="3" placeholder="How can I help you?" required></textarea>
+                      <textarea class="form-control" name="message" id="message" rows="3" placeholder="How can we help you?" required></textarea>
                     </div>
                     <button id="submit-button" type="submit" class="btn btn-blue rounded-3">Submit</button>
                   </form>
@@ -44,7 +45,7 @@
           <div class="col-md-8 my-5 offset-md-2">
               <div class="row">
                   <div>
-                      <h4>We'll do our best to come back to you as soon as possible, but please allow
+                      <h4>And we'll do our best to come back to you as soon as possible, but please allow
                         up to 48hr Monday to Friday.  
                       </h4>
                       <br>

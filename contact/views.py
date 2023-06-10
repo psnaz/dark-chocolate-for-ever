@@ -18,3 +18,17 @@ from .forms import ContactForm
 def contact(request):
     """ A view to display contact page"""
     return render(request, 'contact/contact.html')
+
+
+def submit_contact(request):
+    """ A view to handle post requests for contact form"""
+    url = request.META.get('HTTP_REFERER')
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "Success! Your email's been submitted.")
+            return redirect(url)
+        
+        messages.alert(request, "Something went wrong. Try again.")
+        return redirect(url)

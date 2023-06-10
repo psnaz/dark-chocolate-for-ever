@@ -13,5 +13,5 @@ def newsletter_signup(request):
         if form.is_valid():
             form.save()
             messages.success(request, 'Thank you! You have been subscribed.')
-            return redirect(url) 
+            return redirect(url)
 
