@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Disallow: /checkout/
+Disallow: /admin/
+Disallow: /profiles/
+Sitemap: https://dark-chocolate-for-ever.herokuapp.com/sitemap.xml

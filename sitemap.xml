@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/accounts/login/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/bag/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/about</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/terms</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/contact</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=Plain</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=Nutty</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=Fruity</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=Boozy</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=Spicy</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=Minty</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=Caramel</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=Coffee</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=Plain,Nutty,Fruity,Boozy,Spicy,Minty,Caramel,Coffee</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/hampers</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/vouchers</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/subscriptions</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/23/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=With%20Mint</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/39/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=With%20Alcohol</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/16/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=With%20Fruit</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/35/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=With%20Caramel</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/33/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/1/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/11/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/26/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/40/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/15/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=With%20Spices%20or%20Herbs</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/36/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/38/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=With%20Coffee</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/17/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/22/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/5/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/13/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/9/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/25/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/3/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/30/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/2/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/32/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/4/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/24/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/29/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/20/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/?category=With%20Nuts</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/6/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/14/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/31/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/8/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/27/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/28/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/34/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/21/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/12/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/19/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/7/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/18/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/10/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/37/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dark-chocolate-for-ever.herokuapp.com/products/42/</loc>
+  <lastmod>2023-06-11T11:59:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
