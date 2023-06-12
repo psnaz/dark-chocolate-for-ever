@@ -19,24 +19,12 @@
             <div class="row">
               <div class="col-md-8 mt-1 offset-md-2">
                 <h3>We'd love to hear from you! Just fill out the contact form below:</h3>
-                <form action="{% url 'contact' %}" class="contact-form" id="contact-form" method="POST" autocomplete="off" enctype="multipart/form-data">
+                <form action="{% url 'contact' %}" id="contact-form" method="POST" autocomplete="off" enctype="multipart/form-data">
                   {% csrf_token %}
-                    <div class="form-group">
-                      <label for="name"></label>
-                      <input type="text" class="form-control" name="name" id="name" placeholder="Your Full Name" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="email"></label>
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Your email: name@example.com" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject"></label>
-                        <textarea class="form-control" name="subject" id="subject" rows="1" placeholder="Subject Line" required></textarea>
-                    </div>
-                    <div class="form-group">
-                      <label for="message"></label>
-                      <textarea class="form-control" name="message" id="message" rows="3" placeholder="How can we help you?" required></textarea>
-                    </div>
+                    {{ contact_form.full_name | as_crispy_field }}
+                    {{ contact_form.email | as_crispy_field }}
+                    {{ contact_form.subject | as_crispy_field }}
+                    {{ contact_form.message | as_crispy_field }}
                     <button id="submit-button" type="submit" class="btn btn-blue rounded-3">Submit</button>
                   </form>
               </div>

@@ -14,4 +14,6 @@ def newsletter_signup(request):
             form.save()
             messages.success(request, 'Thank you! You have been subscribed.')
             return redirect(url)
-
+        else:
+            messages.alert(request, "Sorry, something went wrong. Try again.")
+            return redirect(url)

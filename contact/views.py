@@ -6,8 +6,8 @@ A More Complex Form (2022) by Django tutorials (see README file)
 AND with a kind advice and help of my mentor.
 """
 
-from django.shortcuts import render, get_object_or_404
-from django.http import HttpResponseRedirect, HttpResponse
+from django.shortcuts import render, redirect, get_object_or_404
+from django.http import HttpResponse
 from django.shortcuts import redirect
 from django.contrib import messages
 
@@ -16,19 +16,18 @@ from .forms import ContactForm
 
 
 def contact(request):
-    """ A view to display contact page"""
-    return render(request, 'contact/contact.html')
-
-
-def submit_contact(request):
-    """ A view to handle post requests for contact form"""
-    url = request.META.get('HTTP_REFERER')
+    """
+    A view to handle post requests for contact form
+    """
     if request.method == 'POST':
-        form = ContactForm(request.POST)
-        if form.is_valid():
-            form.save()
+        contact_form = ContactForm(request.POST)
+        if contact_form.is_valid():
+            contact_form.save()
             messages.success(request, "Success! Your email's been submitted.")
-            return redirect(url)
-        
-        messages.alert(request, "Something went wrong. Try again.")
-        return redirect(url)
+            return redirect('home')
+        else:
+            messages.error(request, "Sorry, something went wrong. Try again.")
+    else:
+        contact_form = ContactForm()
+    context = {'contact_form': contact_form}
+    return render(request, 'contact/contact.html', context)

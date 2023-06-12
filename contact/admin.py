@@ -3,9 +3,9 @@ from .models import ContactUs
 
 
 class ContactUsAdmin(admin.ModelAdmin):
-    readonly_fields = ('submitted',)
 
-    fields = ('full_name', 'email', 'username', 'submitted', 'subject', 'message',)
+    list_display = (
+        'full_name','subject', 'submitted',)
 
     ordering = ('-submitted',)
 

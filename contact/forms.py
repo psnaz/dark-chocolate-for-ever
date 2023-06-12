@@ -11,12 +11,10 @@ from django.forms import ModelForm
 from .models import ContactUs
 
 
-class ContactForm(forms.ModelForm):
+class ContactForm(ModelForm):
     """
     Form for contact us page
     """
-    required_css_class = 'required'
-
     class Meta:
         model = ContactUs
         fields = '__all__'
