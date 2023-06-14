@@ -4,7 +4,9 @@ This is my th project for my Diploma in Software Dev Course and it’s been buil
 
 The purpose of the e-commerce website is to sell dark chocolate to chocolate lovers offering them a various flavours of dark chocolate, some of them very unusual or exotic. 
 
-!!! ADD MOCKUP CREATED IN https://ui.dev/amiresponsive
+![website mockup](docs/images/mockup.png)
+
+
 
 ## Showcase
 
