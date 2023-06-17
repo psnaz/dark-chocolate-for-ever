@@ -135,10 +135,12 @@ My e-commerce website follows a Business to Consumer business model (B2C) which 
 25. As a Store Owner I can delete a product so that I can remove items that are no longer on sale 
 
 **Rating and Reviewing Product**
+
 26. As a Customer I can click on a product I previously purchased so that I can give it a rating
 27. As a Customer I can click on a product I previously purchased so that I can write a review about it
 
 **Getting in Touch and Staying in Touch**
+
 28. As a Shopper I can subscribe to a newsletter so that I can stay updated on the latest product news, discounts, etc. 
 29. As a Shopper, I can contact the Seller via their Contact form so that I can ask any question I may have
 
