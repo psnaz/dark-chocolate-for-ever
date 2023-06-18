@@ -155,14 +155,25 @@ During the project planning stage and development agile methodology was used. [U
 
 ### Design TO FOLLOW
 
+
+#### Wireframes created with Canva:
+
+[Desktop wireframes](https://www.canva.com/design/DAFl_GX_YAI/dZePMTanzrQNdMuHsd9x4g/edit?utm_content=DAFl_GX_YAI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+[Mobile wireframes]()
+
+
+#### Brand Colours / Colour Palette
+
 - Colour palette created in canva.com, however, different colours used in the end
 
 ![Color palette screenshot](docs/images/colour-palette.png)
 
-#### Wireframes created with balsamiq:
-
-
-#### Brand Colours / Colour Palette
+- Colours used as Brand Colours:
+    - black: #000000
+    - white: #FFFFFF
+    - blue: #649ba3
+    - dark brown: #527138
 
 
 #### Typography
