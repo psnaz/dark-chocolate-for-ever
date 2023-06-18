@@ -99,10 +99,6 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-md-9">
-                
-                    
-                </div>
             </div>
         </div>
     </div>
@@ -140,12 +136,12 @@
                     {% endif %}
                     <br>
                     <header>
-                        <h5>Customer Reviews</h5>
+                        <h5 class="text-blue">Customer Reviews</h5>
                     </header>
                     {% for review in reviews %}
                         <article class="box mb-3">
-                            <div class="icontext w-100 border border-dark">
-                                <div class="text">
+                            <div class="card">
+                                <div class="card-body">
                                     <span class="date text-muted float-md-right"><small>{{ review.submitted }}</small></span>
                                     <h6 class="mb-1 font-weight-bold">{{ review.full_name }}</h6>
                                     <span>
@@ -154,8 +150,8 @@
                                     <p>{{ review.rating }}</p>
                                 </div>
                                 <div class="mt-3">
-                                    <p class="font-italic">{{ review.subject}}</p>
-                                    <p>{{ review.review }}</p>
+                                    <p class="font-italic offset-1">{{ review.subject}}</p>
+                                    <p class="offset-1">{{ review.review }}</p>
                                 </div>
                             </div>
                         </article>
