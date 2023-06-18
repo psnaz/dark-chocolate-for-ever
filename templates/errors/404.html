@@ -1,25 +1,31 @@
-{% extends 'base.html' %}
-{% load static %}
-{% block title %} | 404 Page {% endblock %}
-{% block content %}
+{% extends "account/base.html" %}
 
-<!-- My own code I previously used in my Milestone Project 4-->
-<!-- 400 Error handler -->
-<section class="404-page">
-    <div class="container-fluid pt-5">
-        <div class="row">
-            <div class="col-md-8 my-5 offset-md-2 pt-5">
-                <div class="row">
-                    <h3>Oops, something went wrong...This is a 404 ERROR</h3>
-                    <p>Really sorry, but the page you are looking for has not been found. :-(</p>
-                    <p>As the page you are trying to reach does not exist, we'll take you back home, ok?</p>
-                    <a href="{% url 'home' %}" class="btn btn-signup btn-lg" aria-label="back home button">
-                        YES, PLEASE, TAKE ME HOME.
-                    </a>
-                </div>
+{% load i18n %}
+{% load account socialaccount %}
+
+{% block head_title %}{% trans "About" %}{% endblock %}
+
+{% block inner_content %}
+
+<br>
+<h2 class="logo-font mb-4 text-center text-blue">404 Error</h2>
+<hr>
+<!-- 404 PAGE -->
+<section class="about-us">
+  <div class="container-fluid padding-2">
+      <div class="row">
+          <div class="col-md-8 my-5 offset-md-2">
+            <div class="row">
+                <h3>Oops, something went wrong...This is a 404 ERROR</h3>
+                <p>Really sorry, but the page you are looking for has not been found. :-(</p>
+                <p>As the page you are trying to reach does not exist, we'll take you back home, ok?</p>
+                <a href="{% url 'home' %}" class="btn btn-signup btn-lg" aria-label="back home button">
+                    YES, PLEASE, TAKE ME HOME.
+                </a>
             </div>
-        </div>
-    </div>
+          </div>
+      </div>
+  </div>
 </section>
-
+<!-- END OF THE 404 PAGE -->
 {% endblock %}
