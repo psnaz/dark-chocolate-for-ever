@@ -7,7 +7,6 @@ The purpose of the e-commerce website is to sell dark chocolate to chocolate lov
 ![website mockup](docs/images/mockup.png)
 
 
-
 ## Showcase
 
 A deployed link to the website can be found [here](https://dark-chocolate-for-ever.herokuapp.com/)
@@ -98,7 +97,7 @@ My e-commerce website follows a Business to Consumer business model (B2C) which 
 
 1. As a Shopper I can view a list of products so that I can select some to purchase
 2. As a Shopper I can view a specific category of products so that I can quickly find products I’m interested in without having to search through all products
-3. As a Shopper I can view individual product details so that I can identify the price, description, product rating, product image and product weight
+3. As a Shopper I can view individual product details so that I can identify the price, description, product rating, product image and product size/weight
 4. As a Shopper I can identify deals, clearance items and special offers so that I can take advantage of special savings on products I'd like to purchase
 5. As a Shopper I can easily view the total of my purchases at any time so that I can avoid spending too much
 
