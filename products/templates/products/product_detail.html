@@ -106,7 +106,7 @@
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
                 <div class="col-md-9">
-                    <!-- Rating Stars-->
+                    <!-- Rating Stars - code based on my knowledge from Udemy course by R. Kumar, see Readme -->
                     {% if user.is_authenticated %}
                         <form action="{% url 'submit_review' product.id %}" method="POST">
                             {% csrf_token %}

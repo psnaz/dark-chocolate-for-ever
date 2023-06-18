@@ -166,6 +166,7 @@ During the project planning stage and development agile methodology was used. [U
 
 
 #### Typography
+
 ‘Lato’ used as a main font and 'Dancing Script' used as 'logo font'.
 
 --- 
@@ -351,13 +352,17 @@ Keyword Serch carried out:
 
 - The majority of the code came from the Django Walkthrough projects (Boutique Ado and Blog) and the Diploma in Software Development study materials, my notes taken during going through the materials and by working with Google DevTools - trial and error approach.
 
-- Additonal knowledge used from the following courses: [The Boostrap 4 Camp](https://www.udemy.com/course/bootstrap-4-bootcamp/)
+- Additonal knowledge used from the following courses: 
+  - [The Boostrap 4 Camp](https://www.udemy.com/course/bootstrap-4-bootcamp/)
+  - for Reviews functionality: [Python Django Ecommerce | Advanced Django Web App From Basic ](https://www.udemy.com/course/django-ecommerce-project-based-course-python-django-web-development/)
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/): Used extensively to deepen my knowledge and understanding of HTML and CSS, and chek for ideas and solutions, specifically:  
 
 - For Contact form/ Query model: Youtube [Django Tutorial #9: A More Complex Form (2022) by Django tutorials](https://www.youtube.com/watch?v=-qAf_Qx6Ygg)
 
 - [Djangoproject documentation](https://docs.djangoproject.com/en/4.1/)
+
+- [Bootstrap documentation](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 
 - Stackoverflow
 

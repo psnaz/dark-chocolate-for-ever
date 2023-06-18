@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from django.http import HttpResponse
 
 
-def index(request): 
+def index(request):
     """ A view to return the index page """
 
     return render(request, 'home/index.html')
