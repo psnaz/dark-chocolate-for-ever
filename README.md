@@ -153,7 +153,7 @@ During the project planning stage and development agile methodology was used. [U
 
 ------
 
-### Design TO FOLLOW
+### Design
 
 
 #### Wireframes created with Canva:
@@ -183,6 +183,20 @@ During the project planning stage and development agile methodology was used. [U
 --- 
 
 ## 3. FEATURES
+
+## Scope
+
+To achieve the above project goals I have implemented the following features:
+
+## Features
+
+Dark Chocolate for Ever is an e-commerce store that includes several pages: Home (with access to the store through a shop now button), All Products page (shop), Product detail page, Chocolate Bars pages for individual categories (Plain, Nutty Fruity, Boozey, Spicy, Minty, Caramel, All), Gift Vouchers page, Gift Hampers Page, Subscribtions page, Registration Page, Login Page, Logout page, About page, Contact page and Terms and Conditions page.
+
+### Navigation Bar
+
+The responsive navigation bar includes a logo links to dropdown menus named Home, All Products, Chocolate Bars, Gifts. There are also an account icon with access to Registration and Login pages and Shopping back icon with access to the shopping bag present.
+On medium to small size devices the navigation bar with dropdowns changes into a hamburger menu.
+
 
 ---
 
