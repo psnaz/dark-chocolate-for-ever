@@ -20,54 +20,52 @@ ZIP: 42424
 
 ------
 ## Table of Contents
-* [Business](#business)
+
+* [Business](#1-business)
     * [Business Model](#business-model)
 
-2. UX
-Project Goals
-User Stories
-Design
 
-3. Features
-Existing Features:
-	- Products App
-	- Home App
-	- Bag App
-	- Checkout App
-    - Reviews App
-    - Newsletter App
-    - Profiles App
-- Base Template
-Features to be implemented
+* [UX](#2-ux)
+    * [Project Goals](#project-goals)
+    * [User Stories](#user-stories)
+    * [Design](#design)
 
-4. Database Structure
-5. CRUD Operations and Defensive Design
-6. Technologies Used:
-    - Languages
-    - Libraries and Packages
-    - Tools
-    - Databases
-7. Testing:
-    - Automated Testing:
-    - Manual Testing: Feature Testing, Stripe Payment Testing, Responsivness
 
-8. Deployment:
- - Heroku Deployment (incl AWS) 
- - Local Deployment
+* [Features](#3-features)
+    * [Existing Features](#existing-features)
+    * [Features to be implemented](#features-to-be-implemented)
 
-9. Marketing and SEO:
- - SEO: Keywords used:
- - FB page
- - Newsletter signup
 
-10. Credits:
- - Content
- - Code 
- - Images and Media 
- - Acknowledgements
+* [Database Structure](#4-database-structure)
+
+* [CRUD Operations and Defensive Design](#5-crud-operations-and-defensive-design)
+
+* [Technologies Used](#6-technologies-used)
+    * [Languages, Framework, Libraries and Programs Used](#languages-frameworks-libraries-and-programs-used)
+    * [Online Tools Used](#online-tools-used)
+
+
+* [Testing](#7-testing)
+
+
+* [Deployment](#8-deployment)
+    * [Creating Django App](#creating-a-django-app)
+    * [Deployment to Heroku](#deployment-to-heroku)
+
+
+* [Marketing and SEO](#9-marketing-and-seo)
+    * [Marketing](#marketing)
+    * [SEO](#seo)
+    
+
+* [Credits](#10-credits)
+    * [Code](#code)
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgements](#acknowledgements)
 
 ------
-## Business
+## 1. Business
 
 ### Business Model
 
@@ -82,11 +80,11 @@ My e-commerce website follows a Business to Consumer business model (B2C) which 
 - Chocolate lovers with specific dietary needs like vegan, paleo, gluten-free, sugar-free, dairy-free
 - People who would like to buy sweet and healthier gifts for their loved ones who love dark chocolate and/ or have a special dietary requirements like vegan, paleo, gluten-free, sugar-free, dairy-free
 
-### User Goals / Site Visitor’s Goals
+#### User Goals / Site Visitor’s Goals
 - Familiariaze themselves with a wide range of dark chocolate products available on the UK market by browsing this online shop and reading reviews
 - Purchase products in a hassle-free, fast and secure way
 
-### Site Owner’s Goals
+#### Site Owner’s Goals
 - Establish a trusted brand and recognizable brand voice
 - Provide their target audience with a safe e-commerce that enables them a hassle free 1st class customer experience
 - Collect payments for their products and shipping services
@@ -193,6 +191,8 @@ To achieve the above project goals I have implemented the following features:
 
 Dark Chocolate for Ever is an e-commerce store that includes several pages: Home (with access to the store through a shop now button), All Products page (shop), Product detail page, Chocolate Bars pages for individual categories (Plain, Nutty Fruity, Boozey, Spicy, Minty, Caramel, All), Gift Vouchers page, Gift Hampers Page, Subscribtions page, Registration Page, Login Page, Logout page, About page, Contact page and Terms and Conditions page.
 
+#### Existing Features:
+
 ### HOME page
 
 Includes Navigation Bar, enticing Hero Image with a blue Shop Now button, Welcome section and Footer.
@@ -281,6 +281,9 @@ The Footer is available throughout the site and includes the following features:
 
 ![Footer](docs/images/footer.png)
 
+
+#### Features To Be Implemented:
+
 ---
 
 ## 4. DATABASE STRUCTURE
@@ -304,14 +307,14 @@ I have created the following separate apps and inclueded my custom models:
 
 ## 6. TECHNOLOGIES USED
 
-### Languages Used
+### Languages, Frameworks, Libraries and Programs Used
 - HTML5, Boostrap framework
 - CSS3
 - JavaScript
 - Python, Django library
 - SQLLite/Postgress
 
-### Frameworks, Libraries and Programs Used
+### Online Tools Used
 
 - Canva.com: Canva Color Palette Generator was used to create a color palette and Canva was used to create a mock-up design, and for resizing and editing images.
 - Git: Git was used for version control by utilizing the Gitpod terminal - to commit to Git and push to GitHub
@@ -323,6 +326,9 @@ I have created the following separate apps and inclueded my custom models:
 
 - [amiresponsive](http://ami.responsivedesign.is/) was used to create the mockup for Readme
 - Validation services: W3C Markup Validation, W3C CSS Validation, PEP8 Validation
+
+- Lighthouse, GT Metrix for performance and speed testing
+
 
 ---
 
@@ -486,8 +492,7 @@ Keyword Serch carried out on Semrush:
 
 ### Media
 
-- Hero image taken by [XXX](https://unsplash.com/photos/Wu7hYE7Lzzs)  
- downloaded from unspleash.com
+- Hero image downloaded from unspleash.com
 
 
 ### Acknowledgements
