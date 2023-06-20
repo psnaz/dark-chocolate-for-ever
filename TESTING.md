@@ -26,11 +26,13 @@ Some errors in settings.py indicated too long lines, but these errors were left 
 
 ---
 
-## Lighthouse Test
+## Lighthouse and GT Metrix Test
 
-See the screenshot below for the Lighthouse test results run with [Lighthouse Chrome Extension.](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) When tested for Performance, Accessibility, Best Practices and SEO, good results were achieved.
+See the screenshot below for the Lighthouse test results run with [Lighthouse Chrome Extension.](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) When tested for Performance, Accessibility, Best Practices and SEO, average results were achieved.
 
 ![lighthouse-testing.png](./docs/images/lighthouse-testing.png)
+
+
 
 ---
 
@@ -41,6 +43,10 @@ Responsiveness was regularly checked throughout the development process on my de
 ![responsive-ipadair-820x1180.png](./docs/images/responsive-ipadair-820x1180.png)
 
 ![responsive-sgalaxys8.png](./docs/images/responsive-sgalaxys8.png)
+
+Additional [Mobile Friendly Test](https://search.google.com/test/mobile-friendly) carried out online, view the results available online [here](https://search.google.com/test/mobile-friendly/result?id=MjCtJCfFnG2Op2TsBbPqqA) or see the screenshot below:
+
+![mf-testresult.png](./docs/images/mf-testresult.png)
 
 ---
 
