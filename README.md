@@ -200,9 +200,9 @@ Includes Navigation Bar, enticing Hero Image with a blue Shop Now button, Welcom
 
 ![Home page bottom part](docs/images/homepage-2.png)
 
-#### Navigation Bar
+### Navigation Bar
 
-The responsive navigation bar includes a logo links to dropdown menus named Home, All Products, Chocolate Bars, Gifts. There are also an account icon with access to Registration and Login pages and Shopping back icon with access to the shopping bag present.
+The responsive navigation bar is available throught the site and includes a logo links to dropdown menus named Home, All Products, Chocolate Bars, Gifts. There are also an account icon with access to Registration and Login pages and Shopping back icon with access to the shopping bag present.
 
 ![Navbar](docs/images/navbar.png)
 
@@ -217,6 +217,11 @@ On medium to small size devices the navigation bar with dropdowns changes into a
 The blue delivery banner at the very top of the home page is a part of the navbar and informs shoppers about the current delivery offer (Free delivery for orders over £50). This is not clickable and servers marketing purposes only.
 
 #### START HERE
+
+### Footer
+The Footer is available throughout the site and includes the following features: Newsletter Sign Up form witha  blue Subscribe to Our Newsletter button, Quick Links (Contact Us, About, Terms & Conditions, Home), Copyright Credentials and Social Media Icons (Facebook - connected to Dark Chocolate for Ever Business page, Instagram and Youtube).
+
+![Footer](docs/images/footer.png)
 
 ---
 
