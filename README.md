@@ -192,11 +192,31 @@ To achieve the above project goals I have implemented the following features:
 
 Dark Chocolate for Ever is an e-commerce store that includes several pages: Home (with access to the store through a shop now button), All Products page (shop), Product detail page, Chocolate Bars pages for individual categories (Plain, Nutty Fruity, Boozey, Spicy, Minty, Caramel, All), Gift Vouchers page, Gift Hampers Page, Subscribtions page, Registration Page, Login Page, Logout page, About page, Contact page and Terms and Conditions page.
 
-### Navigation Bar
+### Home page
+
+Includes Navigation Bar, enticing Hero Image with a blue Shop Now button, Welcome section and Footer.
+
+![Home page top part](docs/images/homepage-1.png)
+
+![Home page bottom part](docs/images/homepage-2.png)
+
+#### Navigation Bar
 
 The responsive navigation bar includes a logo links to dropdown menus named Home, All Products, Chocolate Bars, Gifts. There are also an account icon with access to Registration and Login pages and Shopping back icon with access to the shopping bag present.
+
+![Navbar](docs/images/navbar.png)
+
+![Navbar dropdowns](docs/images/navbar-dropdowns.png)
+
+![Account Dropdown](docs/images/my-account-dropdown.png)
+
 On medium to small size devices the navigation bar with dropdowns changes into a hamburger menu.
 
+![Hamburger Menu Dropdown](docs/images/hamburger-dropdown.png)
+
+The blue delivery banner at the very top of the home page is a part of the navbar and informs shoppers about the current delivery offer (Free delivery for orders over £50). This is not clickable and servers marketing purposes only.
+
+#### START HERE
 
 ---
 
