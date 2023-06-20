@@ -20,7 +20,8 @@ ZIP: 42424
 
 ------
 ## Table of Contents
-1. Business
+* [Business](#business)
+    * [Business Model](#business-model)
 
 2. UX
 Project Goals
@@ -66,7 +67,7 @@ Features to be implemented
  - Acknowledgements
 
 ------
-## 1. Business
+## Business
 
 ### Business Model
 
@@ -158,9 +159,9 @@ During the project planning stage and development agile methodology was used. [U
 
 #### Wireframes created with Canva:
 
-[Desktop wireframes](https://www.canva.com/design/DAFl_GX_YAI/dZePMTanzrQNdMuHsd9x4g/edit?utm_content=DAFl_GX_YAI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Desktop wireframes](https://www.canva.com/design/DAFl_GX_YAI/dZePMTanzrQNdMuHsd9x4g/edit?utm_content=DAFl_GX_YAI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-[Mobile wireframes](https://www.canva.com/design/DAFmYcu3u3g/WXY7Od1bhDdMvEHF2VatBQ/edit?utm_content=DAFmYcu3u3g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Mobile wireframes](https://www.canva.com/design/DAFmYcu3u3g/WXY7Od1bhDdMvEHF2VatBQ/edit?utm_content=DAFmYcu3u3g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 #### Brand Colours / Colour Palette
