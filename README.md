@@ -192,7 +192,7 @@ To achieve the above project goals I have implemented the following features:
 
 Dark Chocolate for Ever is an e-commerce store that includes several pages: Home (with access to the store through a shop now button), All Products page (shop), Product detail page, Chocolate Bars pages for individual categories (Plain, Nutty Fruity, Boozey, Spicy, Minty, Caramel, All), Gift Vouchers page, Gift Hampers Page, Subscribtions page, Registration Page, Login Page, Logout page, About page, Contact page and Terms and Conditions page.
 
-### Home page
+### HOME page
 
 Includes Navigation Bar, enticing Hero Image with a blue Shop Now button, Welcome section and Footer.
 
@@ -200,7 +200,7 @@ Includes Navigation Bar, enticing Hero Image with a blue Shop Now button, Welcom
 
 ![Home page bottom part](docs/images/homepage-2.png)
 
-### Navigation Bar
+### NAVIGATION Bar
 
 The responsive navigation bar is available throught the site and includes a logo links to dropdown menus named Home, All Products, Chocolate Bars, Gifts. There are also an account icon with access to Registration and Login pages and Shopping back icon with access to the shopping bag present.
 
@@ -216,9 +216,66 @@ On medium to small size devices the navigation bar with dropdowns changes into a
 
 The blue delivery banner at the very top of the home page is a part of the navbar and informs shoppers about the current delivery offer (Free delivery for orders over £50). This is not clickable and servers marketing purposes only.
 
-#### START HERE
+### HOME Dropdown
 
-### Footer
+#### *About Page*
+
+Page accessible through Home Dropdown and dedicated to Our Mission statement.
+
+![About](docs/images/about-page.png)
+
+#### *Terms & Conditions Page*
+
+Page accessible through Home Dropdown and dedicated to the Terms and Conditions incl. Shipping Policy and Delivery Information and also Summer Shipping Policy.
+
+![T&C](docs/images/t&c-page.png)
+
+#### *Contact Us Page*
+
+Page accessible through Home Dropdown and dedicated to a Contact form and a message how quickly the business responds.
+
+![Contact Us](docs/images/contact-us-page.png)
+
+**NOTE: Access to the About, Terms & Conditions and Contact Us pages are is also available through the Quick Links in the footer at the bottom of the page.**
+
+
+### ALL PRODUCTS Dropdown
+
+#### *Products Page*
+Page accessible through All Products Dropdown menu. Sort by functionality available, so that the products can be sort out by Price, Rating, Name or Category. 
+
+![Products](docs/images/products-page.png)
+
+![Products Sorted By...](docs/images/products-sort-by.png)
+
+There are variations of this page also available directly  through the All Products Dropdown that will display the products sorted by Price, Rating and Category.
+
+#### *Product Details Page*
+
+Product Details Page is accessible when clicked on each individual product displaying the product image, product name, price, size/ weight, cocoa content, category, rating, product description, 
+
+![Product Detail](docs/images/product-detail.png)
+
+
+### GIFTS Dropdown
+
+#### *Gift Hampers*
+Page accessible through Gifts Dropdown and dedicated to Gift Hampers Offer with a message when offer will be available in the future.
+
+![Gift Hampers](docs/images/gift-hampers.png)
+
+#### *Gift Vouchers*
+Page accessible through Gifts Dropdown and dedicated to Gift Vouchers Offer with a message when offer will be available in the future.
+
+![Gift Vouchers](docs/images/gift-vouchers.png)
+
+#### *Subscriptions*
+Page accessible through Gifts Dropdown and dedicated to Subscriptions Offer with a message when offer will be available in the future.
+
+![Subscriptions](docs/images/subscriptions.png)
+
+
+### FOOTER
 The Footer is available throughout the site and includes the following features: Newsletter Sign Up form witha  blue Subscribe to Our Newsletter button, Quick Links (Contact Us, About, Terms & Conditions, Home), Copyright Credentials and Social Media Icons (Facebook - connected to Dark Chocolate for Ever Business page, Instagram and Youtube).
 
 ![Footer](docs/images/footer.png)
