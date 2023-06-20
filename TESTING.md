@@ -32,7 +32,10 @@ See the screenshot below for the Lighthouse test results run with [Lighthouse Ch
 
 ![lighthouse-testing.png](./docs/images/lighthouse-testing.png)
 
+Additional tests carried out on [GT Metrix](https://gtmetrix.com/) (Website Performance Testing and Monitoring Online Tool). GT Metrix scanned all website pages during tests carried out from London based server. Although GT Metrix uses Lighthouse, the test results achieved were much better - please see the reports attached:
 
+- [Desktop results](./docs/gtmetrix-report-desktop.pdf)
+- [Mobile device results](./docs/gtmetrix-report-mobile.pdf)
 
 ---
 
@@ -42,11 +45,11 @@ Responsiveness was regularly checked throughout the development process on my de
 
 ![responsive-ipadair-820x1180.png](./docs/images/responsive-ipadair-820x1180.png)
 
-![responsive-sgalaxys8.png](./docs/images/responsive-sgalaxys8.png)
+![responsive-sgalaxys8.png](./docs/images/responsive-galaxys8.png)
 
 Additional [Mobile Friendly Test](https://search.google.com/test/mobile-friendly) carried out online, view the results available online [here](https://search.google.com/test/mobile-friendly/result?id=MjCtJCfFnG2Op2TsBbPqqA) or see the screenshot below:
 
-![mf-testresult.png](./docs/images/mf-testresult.png)
+![mf-test.png](./docs/images/mf-test.png)
 
 ---
 
