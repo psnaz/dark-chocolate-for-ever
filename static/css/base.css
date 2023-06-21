@@ -136,7 +136,7 @@ input[name='q']::placeholder {
 }
 
 .custom-toast {
-    overflow: visible,
+    overflow: visible;
 }
 
 .toast-capper {
@@ -311,6 +311,6 @@ input[name='q']::placeholder {
     }
 
     body {
-        height: calc(100vh -116px);
+        height: calc(100vh - 116px);
     }
 }
