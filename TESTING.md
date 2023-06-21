@@ -9,16 +9,22 @@ See the screenshot below for HTML code test results run with [HTML Validator.](h
 ![html-testing.png](./docs/images/html-testing.png)
 
 ### CSS Validator
+
 See the screenshot below for CSS code test results run with [CSS Validator.](https://jigsaw.w3.org/css-validator/) No errors detected.
 
 ![css-testing.png](./docs/images/css-testing.png)
 
 ### JavaScript Validator
+
 See the screenshot below for JavaScript code test results run with [JavaScript Validator.](https://jshint.com/)
 
-![javascript-testing.png](./docs/images/javascript-testing.png)
+![js-testing-p1.png](./docs/images/js-testing-p1.png)
+
+![js-testing-p2.png](./docs/images/js-testing-p2.png)
+
 
 ### Python Linter
+
 Majority of errors discovered removed when coding and before running the Python Linter test already in the Gitpod workspace.
 The following pages have been tested (under bilingualmama, bmblog and queries): admin.py, apps.py, forms.py, models.py, urls.py, views.py, models.py and settings.py on [Python Linter.](https://pep8ci.herokuapp.com/)
 
