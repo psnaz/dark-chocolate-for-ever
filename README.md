@@ -454,8 +454,15 @@ enabled by signing up to a newsletter via a Newsletter signup form.
 
 ### SEO
 
-Keyword Serch carried out on Semrush:
+Keyword Serch carried out on [Semrush](https://www.semrush.com/) and results exported.
 
+Click the links below to view to results for
+
+- [dark chocolate](https://docs.google.com/spreadsheets/d/12wRXQmpr3lkPoEY15NvpxQNUWUubHKPw6SYmk7YLk1E/edit?usp=sharing)
+
+- [dark chocolate hampers](https://docs.google.com/spreadsheets/d/1-GvHqQ0R1aDVYMefyFO_m0Z_9KhXvs8dgQzEnKGLuX0/edit?usp=sharing)
+
+- [dark chocolate gifts](https://docs.google.com/spreadsheets/d/174OaptzXvArmG2hsrYK6T30ZFGXVdjqyvPvcc9w_DbI/edit?usp=sharing)
 
 
 ---
