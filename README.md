@@ -203,7 +203,7 @@ Includes Navigation Bar, enticing Hero Image with a blue Shop Now button, Welcom
 
 ### NAVIGATION Bar
 
-The responsive navigation bar is available throught the site and includes a logo links to dropdown menus named Home, All Products, Chocolate Bars, Gifts. There are also an account icon with access to Registration and Login pages and Shopping back icon with access to the shopping bag present.
+The responsive navigation bar is available throught the site and includes a logo links to dropdown menus named Home, All Products, Chocolate Bars, Gifts. There are also an account icon with access to Registration and Login pages and Shopping bag icon with access to the shopping bag present.
 
 ![Navbar](docs/images/navbar.png)
 
@@ -233,9 +233,11 @@ Page accessible through Home Dropdown and dedicated to the Terms and Conditions 
 
 #### *Contact Us Page*
 
-Page accessible through Home Dropdown and dedicated to a Contact form and a message how quickly the business responds.
+Page accessible to all users online through Home Dropdown and dedicated to a Contact form and a message how quickly the business responds.
 
 ![Contact Us](docs/images/contact-us-page.png)
+
+Submitted contact form can be viewed by the site owner when logged into the django admin panel (backend) only . This is a part of the contact app.
 
 **NOTE: Access to the About, Terms & Conditions and Contact Us pages are is also available through the Quick Links in the footer at the bottom of the page.**
 
@@ -325,15 +327,34 @@ Below these buttons a red warning that users will be charged a certain amount.
 
 incl order conf email
 
+![Order confirmation email](docs/images/order-confirmation-email.png)
+
 #### Order History
 available when logged in
 
 ### Reviews and Rating
-are a part of the shopping journey being displayed on product details pages if 
+are a part of the shopping journey being displayed on product details pages if review or rating for relevant product submitted
+
+### ACCOUNT REGISTRATION AND LOGIN/LOG OUT PROCESSES
+
+As mentioned in the Navigation bar section, when users click on the account icon they can register or log into their account.
+
+![Registration Page](docs/images/registration-page.png)
+
+When user completes the registration form they will have to go to their email account and click on the confirmation link to have their account activated.
+
+![Account Registration Confirmation Email](docs/images/account-registration-email.png)
 
 ### PRODUCT MANAGEMENT AREA
 
+The products can be added/ edited/ deleted by the admin (superuser) via back-end django admin login or via front-end (crud functionality) when logging in through My account dropdown.
 
+
+### 404 and 500 PAGES
+
+Custom 404 and 500 pages are in place, both take the user back to the home page.
+
+![Custom 404](docs/images/custom-404.png)
 
 
 
