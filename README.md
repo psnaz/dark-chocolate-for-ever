@@ -346,11 +346,19 @@ are a part of the shopping journey being displayed on product details pages if r
 
 As mentioned in the Navigation bar section, when users click on the account icon they can register or log into their account.
 
+#### Registration Process
+When a new user clicks on the register link in the My account dropdown (account icon), registration page displays.
 ![Registration Page](docs/images/registration-page.png)
 
 When user completes the registration form they will have to go to their email account and click on the confirmation link to have their account activated.
 
 ![Account Registration Confirmation Email](docs/images/account-registration-email.png)
+
+#### Login/Log Out Process
+Both, registered users and site admin (superuser) can login and logout via the Login/logout link My account dropdown (account icon.) The login page is displayed.
+
+![Login Page](docs/images/login-page.png)
+
 
 ### PRODUCT MANAGEMENT AREA
 
