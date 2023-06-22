@@ -75,7 +75,24 @@ Templatetags >
 - urls.py - no errors found
 - views.py - no errors found
 
- 
+ **Newsletter** app
+- admin.py - no errors found
+- apps.py - no errors found
+- contexts.py - no errors found
+- forms.py - no errors found
+- models.py - no errors found
+- urls.py - no errors found
+- views.py - no errors found
+
+**Products** app
+
+- admin.py - no errors found
+- apps.py - no errors found
+- models.py - no errors found
+- urls.py - no errors found
+- views.py - 53: E501 line too long (80>79 characters)
+- widgets.py - 9: E501 line too long (87>79 characters)
+
 
 ---
 
