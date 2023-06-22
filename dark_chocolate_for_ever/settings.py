@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['dark-chocolate-for-ever.herokuapp.com', 'localhost', '*', '8000-psnaz-darkchocolatefor-1qk1daw3qtw.ws-eu100.gitpod.io']
+ALLOWED_HOSTS = ['dark-chocolate-for-ever.herokuapp.com', 'localhost', ]
 
 
 # Application definition

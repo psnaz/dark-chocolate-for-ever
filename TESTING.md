@@ -53,9 +53,29 @@ Templatetags >
 - webhooks.py
 
 **Contact** app
+- admin.py - no errors found
+- apps.py - no errors found
+- forms.py - no errors found
+- models.py - no errors found
+- urls.py - no errors found
+- views.py - no errors found
 
 
-Some errors in settings.py indicated too long lines, but these errors were left without correction due to functionality not being affected in any way, as well as errors in other files mainly indicating white trailing spaces or missing white spaces around operators, keywords etc. 
+**Dark_chocolate_for_ever** app
+- asgi.py - no errors found
+- settings.py - 147: E501 line too long (91>79 characters),  145: E501 line too long (81>79 characters),  153: E501 line too long (82>79 characters),  156: E501 line too long (83>79 characters)
+- urls.py - no errors found
+- views.py - no errors found
+- wsgi.py - 14: E501 line too long (83>79 characters)
+
+**Home** app
+- admin.py - no errors found
+- apps.py - no errors found
+- models.py - no errors found
+- urls.py - no errors found
+- views.py - no errors found
+
+ 
 
 ---
 
