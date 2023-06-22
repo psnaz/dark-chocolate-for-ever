@@ -267,7 +267,10 @@ When an item is added to the bag, firstly the user gets notified by a success me
 
 
 ### CHOCOLATE BARS Dropdown
-- to be added
+
+This dropdown enables shoppers to view chocolate bars according to category they belong to. Some of the products can be in two categories at the same time, eg. fruity and nutty like Hu Dark Cashew Butter + Raspberry Dark Chocolate. The intention behind this dropdown was not only the sorting according to the category, but also displaying chocolate bars in the certain category, as originally, I was planning to have a larger product selection offering not just chocolate bars, but also truffles and chocolate coated nuts. However, my mentor encouraged me to focus on a smaller range of products.
+
+![Chocolate Bars Dropdown](docs/images/chocolate-bars-dropdown.png)
 
 ### GIFTS Dropdown
 
