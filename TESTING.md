@@ -150,12 +150,10 @@ Browser Compatibility was tested by using Chrome, Firefox and Microsoft Edge bro
 
 
 ## Features Test
-All User Stories have been tested manually to make sure that all the Features are working properly. See the screenshots below:
+All User Stories have been tested manually to make sure that all the Features are working properly. See the spreadsheet below:
 
-![features-us-testing1.png](./docs/images/features-us-testing1.png)
 
-![features-us-testing2.png](./docs/images/features-us-testing2.png)
-
-![features-us-testing3.png](./docs/images/features-us-testing3.png)
+### Stripe Test
+The payment system test of Stripe implementation working properly has been tested manually.
 
 

@@ -293,12 +293,50 @@ The Footer is available throughout the site and includes the following features:
 ![Footer](docs/images/footer.png)
 
 
-#### SHOPPING JOURNEY PAGES
+### SHOPPING JOURNEY PAGES
+
+The start of the shopping journey has been already described in the Product Detail Page section above. What happens when the user clicks on the shopping bag icon when items have been added? The user’s taken to the Bag page.
+
+#### Bag Page
+
+This page lists all the items that have been put in the bag and the relevant product information: product image, name of the product, sku no., price, quantity selected in a quantity selector button (that can still amend the quantity if the user changes their mind) and the subtotal. At the bottom of the page there are listed the bag total, delivery cost and grand total alongside a red reminder notifying the user how much more they still have to spend/ add to the bag before they reach the amount to be in title for a free delivery. Below again the ‘Keep Shopping’ button (white with a black outline) that takes users back to the products page and the black ‘Secure Checkout’ button that takes users to the Checkout page.
+
+![Bag Page](docs/images/shopping-bag.png)
+
+#### Checkout page
+
+The Checkout page displays an Order Summary which again lists the items to be purchased incl their images, product names, quantity, subtotal, order total, delivery cost and the grand total. Below a polite prompt for the user to fill out the form below in order to be able to complete the order. 
+
+The form prompts the user to input the following 3 sections:
+1. Details: Full name, email address, 
+2. Delivery (details): Phone number, Street address 1, Street address 2, Town or City; County, State or Locality, Postal Code, Country.
+Below this section a prompt for the user to create an account or login to be able to save this information.
+3. Payment (details):  Card number, MM/ YY (for card expiry month and year) and CVC no.
+At the bottom two buttons: ‘Adjust the bag’ (white with a black outline that takes users bag to the shopping bag page) and the black ‘Complete the order button’.
+Below these buttons a red warning that users will be charged a certain amount.
+
+![Checkout Page](docs/images/checkout-page.png)
+
+
+#### Order Confirmation
+
+incl order conf email
+
+#### Order History
+available when logged in
+
+### Reviews and Rating
+are a part of the shopping journey being displayed on product details pages if 
+
+### PRODUCT MANAGEMENT AREA
+
 
 
 
 
 #### Features To Be Implemented:
+
+Ideally, for SEO purposes this e-commerce would have a blog where the site owner could be writing about the health benefits of dark chocolate, cocoa as a superfood, and share sweet recipes for audience with special dietary needs like vegans, shoppers prefering sugar free, dairy free or raw products.
 
 ---
 
@@ -318,6 +356,8 @@ I have created the following separate apps and inclueded my custom models:
 ---
 
 ## 5. CRUD OPERATIONS AND DEFENSIVE DESIGN
+
+Some of the functionalities are restricted to an admin (superuser only) or registered users while logged in, e.g. adding products (admin), adding reviews (admin or registered users).
 
 ---
 
@@ -344,13 +384,14 @@ I have created the following separate apps and inclueded my custom models:
 - Validation services: W3C Markup Validation, W3C CSS Validation, PEP8 Validation
 
 - Lighthouse, GT Metrix for performance and speed testing
+- Semrush for SEO research
 
 
 ---
 
 ## 7. TESTING
 
-I have tested this project manually and completed also some auto testing via the online validation services. See the full details on a separate page [HERE.](https: add THE TESTING.md FILE LINK HERE!!)
+I have tested this project manually and completed also some auto testing via the online validation services. See the full details on a separate page [HERE.](https://github.com/psnaz/dark-chocolate-for-ever/blob/main/TESTING.md)
 
 ---
 
