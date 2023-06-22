@@ -323,14 +323,21 @@ Below these buttons a red warning that users will be charged a certain amount.
 ![Checkout Page](docs/images/checkout-page.png)
 
 
+#### Checkout Success Page
+
+Once the shopper clicks on the 'Complete the order' button and the payment is processed successfully, the success message and success page incl the order summary are displayed.
+
+![Checkout Success Page](docs/images/checkout-success-page.png)
+
 #### Order Confirmation
 
-incl order conf email
+The shopper subsequently receives an order confirmation email to their email they used for order processing.
 
 ![Order confirmation email](docs/images/order-confirmation-email.png)
 
 #### Order History
-available when logged in
+
+Order history is available to registered users when logged in.
 
 ### Reviews and Rating
 are a part of the shopping journey being displayed on product details pages if review or rating for relevant product submitted
