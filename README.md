@@ -257,6 +257,17 @@ Product Details Page is accessible when clicked on each individual product displ
 
 ![Product Detail](docs/images/product-detail.png)
 
+The quantity selector with plus and minus buttons is present. These are currently not linked to any stock management system as this has not been implemented. When the value is 1, the minus button is disabled, but it will be enabled onece the quantity is 2 or higher. There are two following buttons bellow: The ‘Keep Shopping’ button (white with a black outline) that takes users back to the products page and the ‘Add to the blue ‘Add to bag’ button that facilitates user’s shopping journey by adding items to the shopping bag when clicked.
+
+When an item is added to the bag, firstly the user gets notified by a success message and the minified bag page that displays (in the right top corner on larger devices and desktop, but as an overlay on mobile phones) and at the same time the total of the shopping bag (icon) increases adequately.
+
+![Success Message when Item Added to Bag](docs/images/added-to-bag.png)
+
+![Bag Icon](docs/images/bag-icon.png)
+
+
+### CHOCOLATE BARS Dropdown
+- to be added
 
 ### GIFTS Dropdown
 
@@ -280,6 +291,11 @@ Page accessible through Gifts Dropdown and dedicated to Subscriptions Offer with
 The Footer is available throughout the site and includes the following features: Newsletter Sign Up form witha  blue Subscribe to Our Newsletter button, Quick Links (Contact Us, About, Terms & Conditions, Home), Copyright Credentials and Social Media Icons (Facebook - connected to Dark Chocolate for Ever Business page, Instagram and Youtube).
 
 ![Footer](docs/images/footer.png)
+
+
+#### SHOPPING JOURNEY PAGES
+
+
 
 
 #### Features To Be Implemented:
@@ -500,6 +516,7 @@ Click the links below to view to results for
 ### Media
 
 - Hero image downloaded from unspleash.com
+- Product images downloaded and adapted from amazon.co.uk
 
 
 ### Acknowledgements
